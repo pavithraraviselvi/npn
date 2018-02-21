@@ -1,12 +1,13 @@
 #include<stdio.h>
+#include<string.h>
 int main()
 {
 int i,count=0;
 char a[50];
-scanf("%s",c);
-for(i=0;a[i]!=\0;i++)
+gets(a);
+for(i=0;a[i]!=NULL;i++)
 {
-if(a[i]>=0||a[i]<=9)
+if(a[i]>='0'||a[i]<='9')
 {
 count++;
 }
