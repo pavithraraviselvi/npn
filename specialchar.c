@@ -15,7 +15,7 @@ int main()
 		}
 		else
 		{
-		  count++;
+			count++;
 		}
 	}
 	printf("The no of  special character in the line is %d\n",count);
